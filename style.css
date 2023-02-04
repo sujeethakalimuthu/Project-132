@@ -1,0 +1,32 @@
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+body
+{
+    background-size:cover;
+}
+canvas
+{
+    border-radius:20px;
+    border:double 2px rebeccapurple;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation
+{
+    from{box-shadow: 3px 3px 35px rebeccapurple;}
+    to{box-shadow: 3px 3px 35px royalblue;}
+}
+a
+{
+    font-family: 'Share Tech', sans-serif;
+    width:30%;
+}
+button
+{
+    
+}
